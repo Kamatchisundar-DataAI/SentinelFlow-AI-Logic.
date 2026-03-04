@@ -1,6 +1,12 @@
 # SentinelFlow-AI-Logic.
 A priority-first AI assistant using Sentiment Analysis and Predictive Logistics.
 
+Project Name: SentinelFlow
+Objective: To solve "Scheduling Fatigue" by using Sentiment Analysis to prioritize life-critical appointments over low-priority work requests.
+​Phase 1: Sentiment Extraction: The AI scans incoming calendar invites and emails. It looks for "Urgency Markers" or "Emotional Weight" (e.g., a "Doctor's Appointment" vs. a "Weekly Sync").
+​Phase 2: Predictive Logistics: The system pulls real-time data from Maps APIs (like Google Maps) to calculate travel time based on current traffic.
+​Phase 3: The "Guardian" Protocol: If a new request comes in that conflicts with a high-priority appointment, the AI automatically suggests a different time or warns the user of the "Opportunity Cost."
+
 #Prompt
 [Role] Act as SentinelFlow, an advanced AI Concierge. Your sole purpose is to protect the user's high-priority life appointments from low-priority work distractions.
 ​[Operational Framework: Step-by-Step Logic]
